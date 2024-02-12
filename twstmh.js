@@ -70,28 +70,28 @@ typeList = [
         typeVariations: ["Arbalète", "Arc court", "Fusil", "Fronde", "Paire de pistolets", "Arc long", "Chakram", "Boomerang", "Shurikens", "Couteaux de lancer"],
         tagsList: [
             {
-            tagName: "Pourfendeur",
-            tagEffect: "Ignore les boucliers"
+            tagName: "Dispersion",
+            tagEffect: "+1 dégât à courte distance et -1 dégât à longue distance"
             },
             {
-            tagName: "Long",
-            tagEffect: "Peut attaque à Courte Portée"
+            tagName: "Précision",
+            tagEffect: "-1 dégât à courte distance et +1 dégât à longue distance"
             },
             {
-            tagName: "Etourdissant",
-            tagEffect: "Sur un résultat 3-4, votre cible ne peut pas être celle qui contre-attaque"
+            tagName: "Parabolique",
+            tagEffect: "Peut tirer au dessus des barrière sur des cibles hors du champs de vision"
             },
             {
-            tagName: "Cavalerie",
-            tagEffect: "Inflige +1 dégât si utilisé sur une monture"
+            tagName: "Assuré",
+            tagEffect: "Inflige tous de même 1 de dégât sur un 1-2"
             },
             {
-            tagName: "Lourd",
-            tagEffect: "Inflige +2 dégâts, mais un résultat de 1-2 provoque deux conséquences"
+            tagName: "Volée",
+            tagEffect: "Au lieu d'infliger 2 à une cible, peut infliger 1 de dégât à chaque cible ennemie située à une distance précise"
             },
             {
-            tagName: "Destructeur",
-            tagEffect: "Une fois par session, réussi gratuitement un jet pour détruire quelque chose d'inanimé"
+            tagName: "Tête chercheuse",
+            tagEffect: "Si vous touchez une cible, vous pouvez ensuite choisir d'obtenir un résultat de 4 sur tous les tirs suivant tant que vous gardez cette même cible"
             },
         ]
     },
@@ -102,28 +102,28 @@ typeList = [
         typeVariations: ["Tome"],
         tagsList: [
             {
-                tagName: "Pourfendeur",
-                tagEffect: "Ignore les boucliers"
+                tagName: "Souffle",
+                tagEffect: "Repousse la cible d'une zone"
                 },
                 {
-                tagName: "Long",
-                tagEffect: "Peut attaque à Courte Portée"
+                tagName: "Feu",
+                tagEffect: "Inflige +1 dégât aux cibles organiques"
                 },
                 {
-                tagName: "Etourdissant",
-                tagEffect: "Sur un résultat 3-4, votre cible ne peut pas être celle qui contre-attaque"
+                tagName: "Glace",
+                tagEffect: "La cible ne peut pas se déplacer jusqu'au début de votre prochain tour"
                 },
                 {
-                tagName: "Cavalerie",
-                tagEffect: "Inflige +1 dégât si utilisé sur une monture"
+                tagName: "Foudre",
+                tagEffect: "Inflige +1 dégât si la cible tiens ou porte un objet métallique"
                 },
                 {
-                tagName: "Lourd",
-                tagEffect: "Inflige +2 dégâts, mais un résultat de 1-2 provoque deux conséquences"
+                tagName: "Lumière",
+                tagEffect: "Inflige +1 dégât si la cible est mort-vivante ou démoniaque"
                 },
                 {
-                tagName: "Destructeur",
-                tagEffect: "Une fois par session, réussi gratuitement un jet pour détruire quelque chose d'inanimé"
+                tagName: "Ténèbres",
+                tagEffect: "La cible ne peut pas être guérie jusqu'au début de votre prochain tour"
                 },
         ]
     }

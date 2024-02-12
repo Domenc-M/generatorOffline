@@ -37,16 +37,95 @@ typeList = [
         typeRange : "Mêlée",
         typeVariations: ["Epée à deux mains", "Odachi", "Faux", "Lance", "Trident", "Glaive", "Marteau à deux mains", "Morgensterg", "Hache à deux mains"],
         tagsList: [
-            {
-                
-            }
+                {
+                tagName: "Pourfendeur",
+                tagEffect: "Ignore les boucliers"
+                },
+                {
+                tagName: "Long",
+                tagEffect: "Peut attaque à Courte Portée"
+                },
+                {
+                tagName: "Etourdissant",
+                tagEffect: "Sur un résultat 3-4, votre cible ne peut pas être celle qui contre-attaque"
+                },
+                {
+                tagName: "Cavalerie",
+                tagEffect: "Inflige +1 dégât si utilisé sur une monture"
+                },
+                {
+                tagName: "Lourd",
+                tagEffect: "Inflige +2 dégâts, mais un résultat de 1-2 provoque deux conséquences"
+                },
+                {
+                tagName: "Destructeur",
+                tagEffect: "Une fois par session, réussi gratuitement un jet pour détruire quelque chose d'inanimé"
+                },
         ]
     },
     {
-        typeName : "Arme à deux mains",
+        typeName : "Arme à distance",
+        typeDamage : "2",
+        typeRange : "Courte distance / Longue distance",
+        typeVariations: ["Arbalète", "Arc court", "Fusil", "Fronde", "Paire de pistolets", "Arc long", "Chakram", "Boomerang", "Shurikens", "Couteaux de lancer"],
+        tagsList: [
+            {
+            tagName: "Pourfendeur",
+            tagEffect: "Ignore les boucliers"
+            },
+            {
+            tagName: "Long",
+            tagEffect: "Peut attaque à Courte Portée"
+            },
+            {
+            tagName: "Etourdissant",
+            tagEffect: "Sur un résultat 3-4, votre cible ne peut pas être celle qui contre-attaque"
+            },
+            {
+            tagName: "Cavalerie",
+            tagEffect: "Inflige +1 dégât si utilisé sur une monture"
+            },
+            {
+            tagName: "Lourd",
+            tagEffect: "Inflige +2 dégâts, mais un résultat de 1-2 provoque deux conséquences"
+            },
+            {
+            tagName: "Destructeur",
+            tagEffect: "Une fois par session, réussi gratuitement un jet pour détruire quelque chose d'inanimé"
+            },
+        ]
+    },
+    {
+        typeName : "Tome",
         typeDamage : "3",
-        typeRange : "Mêlée",
-        typeVariations: ["Epée à deux mains", "Odachi", "Faux", "Lance", "Trident", "Glaive", "Marteau à deux mains", "Morgensterg", "Hache à deux mains"]
+        typeRange : "Courte distance",
+        typeVariations: ["Tome"],
+        tagsList: [
+            {
+                tagName: "Pourfendeur",
+                tagEffect: "Ignore les boucliers"
+                },
+                {
+                tagName: "Long",
+                tagEffect: "Peut attaque à Courte Portée"
+                },
+                {
+                tagName: "Etourdissant",
+                tagEffect: "Sur un résultat 3-4, votre cible ne peut pas être celle qui contre-attaque"
+                },
+                {
+                tagName: "Cavalerie",
+                tagEffect: "Inflige +1 dégât si utilisé sur une monture"
+                },
+                {
+                tagName: "Lourd",
+                tagEffect: "Inflige +2 dégâts, mais un résultat de 1-2 provoque deux conséquences"
+                },
+                {
+                tagName: "Destructeur",
+                tagEffect: "Une fois par session, réussi gratuitement un jet pour détruire quelque chose d'inanimé"
+                },
+        ]
     }
 ]
 
